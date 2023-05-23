@@ -18,20 +18,20 @@ export class Profil extends Component {
     return (
       <Fragment>
         <div style={{ display: "flex", justifyContent: "center" }}>
-          <div class="card" style={{ width: "18", marginTop: "100px" }}>
+          <div className="card" style={{ width: "18", marginTop: "100px" }}>
             <img
-              class="card-img-top"
+              className="card-img-top"
               src={imgSrc}
-              alt="Card image cap"
+              alt="Card  cap"
               style={{ width: "50%", marginLeft: "350px", marginTop: "100px" }}
             />
-            <div class="card-body">
+            <div className="card-body">
               <h3 className="text-primary">{profession}</h3>
               <h3 className="text-primary">{fullname}</h3>
               <h3 className="text-primary">{bio}</h3>
 
-              <p class="card-text"></p>
-              <a href="#" class="btn btn-primary">
+              <p className="card-text"></p>
+              <a href="#!" className="btn btn-primary">
                 Go somewhere
               </a>
             </div>

@@ -6,7 +6,7 @@ import image from"./components/pp.jpeg";
 class App extends Component {
   state = {
     person: {
-      fullname: "Elyes",
+      fullname: "med amine ",
       bio: "DrifT car",
       imgSrc: image,
       profession: "Developer",
